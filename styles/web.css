@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .btn {
     padding: 20px 43px;
     background: hsl(0, 100%, 65%);
@@ -19,7 +24,7 @@
 .header {
     background-color: #fad9d9;
     height: 850px;
-    width: 1920px;
+    width: 100%;
     justify-content: space-between;
 
 }
@@ -89,6 +94,7 @@
     padding-top: 180px;
     width: 1922px;
     height: 620px;
+    font-size: 20px;
 }
 
 .red {
@@ -121,8 +127,8 @@
 .bta {
     width: 370px;
     height: 370px;
-    padding: 110px;
-    padding-right:  300px;
+    padding-top:  117px;
+    
 }
 
 .btm {
@@ -141,15 +147,30 @@
 }
 .red{
     display: flex;
+    
+}
+.ina{
+    text-align: center;
 }
 .img{
     display: flex;
 }
 .oll-primary{
 display: flex;
-padding-left: 250px;
+padding: 40px 0px;
 gap: 20px;
-margin-right: 20px;
+
+}
+.mta{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mta img{
+    width: 100%;
 }
 .att{
     padding-right: 20px;
@@ -166,6 +187,7 @@ margin-right: 20px;
 .mtb{
   
     padding: 150px 240px 150px 230px ;
+    padding-left: 240px;
 }
 
 
@@ -188,4 +210,61 @@ margin-right: 20px;
 .ww{
     color: white;
     font-size: 60px ;
+}
+
+.ra{
+    position: relative;
+
+}
+.home{
+    position: absolute;
+}
+
+.deal-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px ;
+}
+.deal-wrapper img{
+    width: 100%;
+}
+.deal-content{
+    position: absolute;
+
+}
+.deal-content input{
+    padding: 18px 20px ;
+    border: 1px solid lightgray;
+    width: 500px;
+    margin-top: 20px;
+}
+.container{
+    width: 1350px;
+    margin: auto;
+}
+.aziz{
+    padding-bottom: 30px;
+    
+}
+.rakib{
+    padding-bottom: 30px;
+}
+.first-second{
+    padding-top: 50px;
+}
+
+.ttt{
+    text-align: center;
+}
+.ppp{
+    text-align: center;
+}
+.aa{
+    padding: 30px;
+}
+.ss{
+    padding: 30px;
 }
