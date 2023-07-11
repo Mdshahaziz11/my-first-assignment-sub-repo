@@ -87,6 +87,8 @@
 
 .btb {
     padding-top: 180px;
+    width: 1922px;
+    height: 620px;
 }
 
 .red {
@@ -99,12 +101,14 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding-right: 10px;
+ 
 }
 
 .btv {
     width: 310px;
     height: 428px;
     padding-top: 110px;
+
 }
 
 .btc {
@@ -126,6 +130,7 @@
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    
 }
 
 .btj {
@@ -143,4 +148,44 @@
 .oll-primary{
 display: flex;
 padding-left: 250px;
+gap: 20px;
+margin-right: 20px;
+}
+.att{
+    padding-right: 20px;
+}
+.mm{
+    padding-right: 20px;
+}
+.nn{
+    padding-right: 20px;
+}
+.bb{
+    padding-right: 20px;
+}
+.mtb{
+  
+    padding: 150px 240px 150px 230px ;
+}
+
+
+.cc{
+    background-color: black;
+    text-align: center;
+    padding: 302px 783px 128px 778px ;
+}
+.dd{
+    color:  hsl(0, 100%, 65%);
+    font-size: 60px ;
+ 
+}
+.aa{
+    color: rgb(243, 213, 213);
+}
+.ss{
+    color:rgb(194, 148, 148) ;
+}
+.ww{
+    color: white;
+    font-size: 60px ;
 }
